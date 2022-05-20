@@ -43,4 +43,4 @@ function verificar() {
     res.innerHTML = `Detectamos ${gen} com ${idade} anos.`
     res.append(img)
   }
-}
+} 
