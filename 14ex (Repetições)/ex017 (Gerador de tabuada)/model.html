@@ -4,20 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modelo de exercicio</title>
+  <title>Tabuada</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Hora do dia</h1>
+    <h1>Gerador de tabuada x.10 </h1>
   </header>
   <section>
     <div>
-      Agora são 
+      <p>Número:
+        <input type="number" name="num" id="txtn">
+        <input type="button" value="Gerar tabuada" onclick="calcular()"></p> 
     </div>
-    <div>
-      Hi
-    </div>
+    <select name="tabuada" id="res" size="10">
+      <option>Digite um número acima</option>
+    </select>
   </section>
   <footer>
     <p>&copy; M4lf0r</p>
