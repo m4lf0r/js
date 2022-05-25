@@ -7,7 +7,7 @@ function calcular() {
       let n = Number(num.value) //Transformando a String gerada pelo input em Number
       resultado.innerHTML = '' //Limpar o texto quando houver nova busca
       for (var c = 1; c <= 10; c++ ) {
-        var item = document.createElement('option')
+        var item = document.createElement('option') //Cria um elemento dentro do option
         item.text = `${n} x ${c} = ${n*c}`
         item.value = `resultado${c}`
         resultado.appendChild(item)
